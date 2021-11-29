@@ -8,35 +8,56 @@
     <author>
       <name>JansonAI</name>
     </author>
-    <updated>2021-11-26T04:08:11.000Z</updated>
+    <updated>2021-11-29T16:32:21.000Z</updated>
     <entry>
-        <id>http://example.com/2021/11/26/BlogByJansonAI/</id>
-        <title>BlogByJansonAI</title>
-        <link rel="alternate" href="http://example.com/2021/11/26/BlogByJansonAI/"/>
-        <content type="html">&lt;h2 id=&#34;第一章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章&#34;&gt;#&lt;/a&gt; 第一章&lt;/h2&gt;
-&lt;p&gt;我是张臻&lt;/p&gt;
+        <id>http://example.com/2021/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%98%AF%E7%94%A8%E4%BD%9Cmarkdown%E7%9A%84%E6%93%8D%E4%BD%9C%E5%9B%9E%E9%A1%BE/</id>
+        <title>不会吧，不会真有人忘了Markdown的用法吧？是我啊，那没事了</title>
+        <link rel="alternate" href="http://example.com/2021/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%98%AF%E7%94%A8%E4%BD%9Cmarkdown%E7%9A%84%E6%93%8D%E4%BD%9C%E5%9B%9E%E9%A1%BE/"/>
+        <content type="html">&lt;h1 id=&#34;这是一级标题-空格标题文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是一级标题-空格标题文字&#34;&gt;#&lt;/a&gt; 这是一级标题 ：#+ 空格 + 标题文字&lt;/h1&gt;
+&lt;h3 id=&#34;这是一个二级标题空格标题文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是一个二级标题空格标题文字&#34;&gt;#&lt;/a&gt; 这是一个二级标题：##+ 空格 + 标题文字&lt;/h3&gt;
+&lt;h3 id=&#34;这是一个三级标题空格标题文字&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是一个三级标题空格标题文字&#34;&gt;#&lt;/a&gt; 这是一个三级标题：###+ 空格 + 标题文字&lt;/h3&gt;
 &lt;hr /&gt;
-&lt;h2 id=&#34;第二章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二章&#34;&gt;#&lt;/a&gt; 第二章&lt;/h2&gt;
-&lt;p&gt;内容&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;这是一个列表：-+ 空格 + 文字&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这是第二个列表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这是子列表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这是第三个列表&lt;/p&gt;
 &lt;hr /&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tLw==&#34;&gt;这是一个外部链接 (bilibili), 相当于超链接&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;下面是一张图片&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://tva4.sinaimg.cn/large/006Aqx3gly8gwvz9lqgxyj31qi0u0qi6.jpg&#34; alt=&#34;图片&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
-        <updated>2021-11-26T04:08:11.000Z</updated>
+        <updated>2021-11-29T16:32:21.000Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2021/11/24/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/2021/11/24/hello-world/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+        <id>http://example.com/2021/11/30/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFJansonAI/</id>
+        <title>大家好，我是JansonAI</title>
+        <link rel="alternate" href="http://example.com/2021/11/30/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFJansonAI/"/>
+        <content type="html"></content>
+        <updated>2021-11-29T16:20:11.000Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/2021/11/26/BlogByJansonAI/</id>
+        <title>只要你看佐贺偶像是传奇，我们就是异父异母的好兄弟！</title>
+        <link rel="alternate" href="http://example.com/2021/11/26/BlogByJansonAI/"/>
+        <content type="html">&lt;h2 id=&#34;你需要干的第一件事&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你需要干的第一件事&#34;&gt;#&lt;/a&gt; 你需要干的第一件事&lt;/h2&gt;
+&lt;p&gt;看佐贺第一季&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;你需要干的第二件事&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你需要干的第二件事&#34;&gt;#&lt;/a&gt; 你需要干的第二件事&lt;/h2&gt;
+&lt;p&gt;看佐贺第二季&lt;/p&gt;
+&lt;hr /&gt;
 </content>
-        <updated>2021-11-24T12:06:45.003Z</updated>
+        <category term="初次" scheme="http://example.com/tags/%E5%88%9D%E6%AC%A1/" />
+        <updated>2021-11-26T04:08:11.000Z</updated>
     </entry>
 </feed>
