@@ -1,11 +1,33 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "JansonAI's note",
+    "title": "我们都是逆风旅人",
     "subtitle": "带着伤痛不断前行，唯独当下才是现实",
     "icon": "http://jansonai.com/images/favicon.ico",
-    "description": "",
+    "description": "记录自己的每一小步",
     "home_page_url": "http://JansonAI.com",
     "items": [
+        {
+            "id": "http://jansonai.com/2021/12/02/computer-science/course-1/test01/",
+            "url": "http://jansonai.com/2021/12/02/computer-science/course-1/test01/",
+            "title": "test01",
+            "date_published": "2021-12-02T11:10:10.000Z",
+            "content_html": "<h2 id=\"这是一个markdown文件\"><a class=\"anchor\" href=\"#这是一个markdown文件\">#</a> 这是一个 markdown 文件</h2>\n",
+            "tags": [
+                "计算机科学",
+                "零基础学Java语言-浙江大学-翁恺"
+            ]
+        },
+        {
+            "id": "http://jansonai.com/2021/12/02/computer-science/course-1/test02/",
+            "url": "http://jansonai.com/2021/12/02/computer-science/course-1/test02/",
+            "title": "test02",
+            "date_published": "2021-12-02T11:10:10.000Z",
+            "content_html": "<h2 id=\"这是一个markdown文件\"><a class=\"anchor\" href=\"#这是一个markdown文件\">#</a> 这是一个 markdown 文件</h2>\n",
+            "tags": [
+                "计算机科学",
+                "Java"
+            ]
+        },
         {
             "id": "http://jansonai.com/2021/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%98%AF%E7%94%A8%E4%BD%9Cmarkdown%E7%9A%84%E6%93%8D%E4%BD%9C%E5%9B%9E%E9%A1%BE/",
             "url": "http://jansonai.com/2021/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%98%AF%E7%94%A8%E4%BD%9Cmarkdown%E7%9A%84%E6%93%8D%E4%BD%9C%E5%9B%9E%E9%A1%BE/",
@@ -19,8 +41,10 @@
             "url": "http://jansonai.com/2021/11/30/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFJansonAI/",
             "title": "大家好，我是JansonAI",
             "date_published": "2021-11-29T16:20:11.000Z",
-            "content_html": "",
-            "tags": []
+            "content_html": "<ol>\n<li class=\"quiz true\">\n<p>编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。</p>\n</li>\n<li class=\"quiz multi\">\n<p>有基类  <code>SHAPE</code> ，派生类  <code>CIRCLE</code> ，声明如下变量： </p>\n<figure class=\"highlight python\"><figcaption data-lang=\"python\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>SHAPE shape1<span class=\"token punctuation\">,</span><span class=\"token operator\">*</span>p1<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>CIRCLE circle1<span class=\"token punctuation\">,</span><span class=\"token operator\">*</span>q1<span class=\"token punctuation\">;</span></pre></td></tr></table></figure><p>下列哪些项是 “派生类对象替换基类对象”。</p>\n<ul class=\"options\">\n<li class=\"correct\"><code>p1=&amp;circle1;</code> </li>\n<li><code>q1=&amp;shape1;</code></li>\n<li class=\"correct\"><code>shape1=circle1;</code> </li>\n<li><code>circle1=shape1;</code></li>\n</ul>\n<blockquote>\n<ul class=\"options\">\n<li>✔️ 令基类对象的指针指向派生类对象</li>\n<li>❌ 派生类指针指向基类的引用</li>\n<li>✔️ 派生类对象给基类对象赋值</li>\n<li>❌ 基类对象给派生类对象赋值</li>\n</ul>\n</blockquote>\n</li>\n<li class=\"quiz\">\n<p>下列叙述正确的是 <span class=\"gap\"></span> 。</p>\n<ul class=\"options\">\n<li>虚函数只能定义成无参函数</li>\n<li>虚函数不能有返回值</li>\n<li>能定义虚构造函数</li>\n<li class=\"correct\">A、B、C 都不对</li>\n</ul>\n</li>\n<li class=\"quiz fill\">\n<p>如果定义  <code>int e=8; double f=6.4, g=8.9;</code> ，则表达式  <code>f+int (e/3*int (f+g)/2)%4</code>  的值为 <span class=\"gap\">9.4</span>。</p>\n<blockquote>\n<p>注意运算顺序和数据类型<br />\n<span class=\"mistake\"> 8.4</span></p>\n</blockquote>\n</li>\n</ol>\n",
+            "tags": [
+                "计算"
+            ]
         },
         {
             "id": "http://jansonai.com/2021/11/26/BlogByJansonAI/",

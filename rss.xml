@@ -1,17 +1,37 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>JansonAI&#39;s note</title>
+        <title>我们都是逆风旅人</title>
         <subtitle>带着伤痛不断前行，唯独当下才是现实</subtitle>
         <icon>http://jansonai.com/images/favicon.ico</icon>
         <link>http://JansonAI.com</link>
         <author>
           <name>JansonAI</name>
         </author>
-        <description></description>
+        <description>记录自己的每一小步</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 30 Nov 2021 00:32:21 +0800</pubDate>
-        <lastBuildDate>Tue, 30 Nov 2021 00:32:21 +0800</lastBuildDate>
+        <pubDate>Thu, 02 Dec 2021 19:10:10 +0800</pubDate>
+        <lastBuildDate>Thu, 02 Dec 2021 19:10:10 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://jansonai.com/2021/12/02/computer-science/course-1/test01/</guid>
+            <title>test01</title>
+            <link>http://jansonai.com/2021/12/02/computer-science/course-1/test01/</link>
+            <category term="计算机科学" scheme="http://jansonai.com/categories/computer-science/" />
+            <category term="零基础学Java语言-浙江大学-翁恺" scheme="http://jansonai.com/categories/computer-science/course-1/" />
+            <pubDate>Thu, 02 Dec 2021 19:10:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;这是一个markdown文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是一个markdown文件&#34;&gt;#&lt;/a&gt; 这是一个 markdown 文件&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://jansonai.com/2021/12/02/computer-science/course-1/test02/</guid>
+            <title>test02</title>
+            <link>http://jansonai.com/2021/12/02/computer-science/course-1/test02/</link>
+            <category term="计算机科学" scheme="http://jansonai.com/categories/computer-science/" />
+            <category term="Java" scheme="http://jansonai.com/categories/computer-science/java/" />
+            <pubDate>Thu, 02 Dec 2021 19:10:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;这是一个markdown文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#这是一个markdown文件&#34;&gt;#&lt;/a&gt; 这是一个 markdown 文件&lt;/h2&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://jansonai.com/2021/11/30/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E6%98%AF%E7%94%A8%E4%BD%9Cmarkdown%E7%9A%84%E6%93%8D%E4%BD%9C%E5%9B%9E%E9%A1%BE/</guid>
             <title>不会吧，不会真有人忘了Markdown的用法吧？是我啊，那没事了</title>
@@ -46,8 +66,48 @@
             <guid isPermalink="true">http://jansonai.com/2021/11/30/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFJansonAI/</guid>
             <title>大家好，我是JansonAI</title>
             <link>http://jansonai.com/2021/11/30/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AFJansonAI/</link>
+            <category term="计算" scheme="http://jansonai.com/categories/%E8%AE%A1%E7%AE%97/" />
             <pubDate>Tue, 30 Nov 2021 00:20:11 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li class=&#34;quiz true&#34;&gt;
+&lt;p&gt;编译时多态主要指运算符重载与函数重载，而运行时多态主要指虚函数。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz multi&#34;&gt;
+&lt;p&gt;有基类  &lt;code&gt;SHAPE&lt;/code&gt; ，派生类  &lt;code&gt;CIRCLE&lt;/code&gt; ，声明如下变量： &lt;/p&gt;
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;SHAPE shape1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;p1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;CIRCLE circle1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;q1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下列哪些项是 “派生类对象替换基类对象”。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;p1=&amp;amp;circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;q1=&amp;amp;shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;&lt;code&gt;shape1=circle1;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;circle1=shape1;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;✔️ 令基类对象的指针指向派生类对象&lt;/li&gt;
+&lt;li&gt;❌ 派生类指针指向基类的引用&lt;/li&gt;
+&lt;li&gt;✔️ 派生类对象给基类对象赋值&lt;/li&gt;
+&lt;li&gt;❌ 基类对象给派生类对象赋值&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz&#34;&gt;
+&lt;p&gt;下列叙述正确的是 &lt;span class=&#34;gap&#34;&gt;&lt;/span&gt; 。&lt;/p&gt;
+&lt;ul class=&#34;options&#34;&gt;
+&lt;li&gt;虚函数只能定义成无参函数&lt;/li&gt;
+&lt;li&gt;虚函数不能有返回值&lt;/li&gt;
+&lt;li&gt;能定义虚构造函数&lt;/li&gt;
+&lt;li class=&#34;correct&#34;&gt;A、B、C 都不对&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&#34;quiz fill&#34;&gt;
+&lt;p&gt;如果定义  &lt;code&gt;int e=8; double f=6.4, g=8.9;&lt;/code&gt; ，则表达式  &lt;code&gt;f+int (e/3*int (f+g)/2)%4&lt;/code&gt;  的值为 &lt;span class=&#34;gap&#34;&gt;9.4&lt;/span&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意运算顺序和数据类型&lt;br /&gt;
+&lt;span class=&#34;mistake&#34;&gt; 8.4&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://jansonai.com/2021/11/26/BlogByJansonAI/</guid>
